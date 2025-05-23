@@ -42,7 +42,6 @@ body {
     background-color: var(--botao-inativo);
     color: var(--branco);
     display: flex;
-@@ -59,73 +58,4 @@
 
 .botoes {
     display: block;
