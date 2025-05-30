@@ -103,7 +103,7 @@ body {
     --cor-de-fundo: #900a0a;
     --verde: #4f0b0bfc;
     --branco: #FFFFFF;
-    --botao-ativo: #5f1515;
+    --botao-ativo: #c01414;
     --botao-inativo: rgba(186, 15, 15, 0.784);
     --texto-fundo: rgba(0, 0, 0, 0.3);
 }
@@ -170,5 +170,14 @@ body {
 
     .botao:last-child {
         border-radius: 0 40px 0 0;
+    }
+}
+@media screen  and (mid-width:768px){
+    .botoes{
+        display: flex; 
+    }
+    .botoes:first-child{
+        border-radius: 40px 0 0 0;
+
     }
 }
