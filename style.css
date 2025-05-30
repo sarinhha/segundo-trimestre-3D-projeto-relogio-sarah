@@ -15,7 +15,6 @@ body {
     font-family: 'Chakra Petch', sans-serif;
 }
 
-
 .conteudo-principal {
     display: flex;
     flex-direction: column;
@@ -36,15 +35,15 @@ body {
     color: var(--verde);
 }
 
-
 .botao {
-    font-family: 'Chakra Petch', sans-serif;
     background-color: var(--botao-inativo);
     color: var(--branco);
     display: flex;
+    font-family: 'Chakra Petch', sans-serif;  /* Pode manter, mas só se necessário */
+}
 
 .botoes {
-    display: block;
+    display: block; /* Alterado para flex em telas grandes */
 }
 
 .botao.ativo {
@@ -92,19 +91,17 @@ body {
 .contador-digito-numero {
     font-size: 80px;
     margin: 0;
-
 }
 
 .contador-digito-texto {
     color: var(--verde);
     font-size: 20px;
     margin: 0;
-
 }
 
 @media screen and (min-width: 768px) {
     .botoes {
-        display: flex;
+        display: flex; /* Alterado para flex em telas grandes */
     }
 
     .botao:first-child {
