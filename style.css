@@ -159,6 +159,12 @@ body {
     display: block;
 }
 
+.ativo{
+    background-color: var(--botao-ativo);
+    border-bottom: 4px solid var(--verde);
+    
+}
+
 @media screen and (min-width: 768px) {
     .botoes {
         display: flex; /* Alterado para flex em telas grandes */
@@ -180,4 +186,8 @@ body {
         border-radius: 40px 0 0 0;
 
     }
+    .botao:last-child{
+        border-radius: ;
+    }
 }
+
