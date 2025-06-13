@@ -162,6 +162,22 @@ body {
 .ativo{
     background-color: var(--botao-ativo);
     border-bottom: 4px solid var(--verde);
+    .abas-textos{
+        background-color: var(--cor-de-fundo);
+        pading: 40px
+        border bottom 0 0 40px 40px;
+    
+    }
+    .botao.ativo{
+        background-color: var(--botao-ativo);
+        border-bottom: 4px solid var(--botao-ativo);
+    }
+    .abas-conteudo.ativo{
+        display; block;
+    }
+    .abas-conteudo{
+        display: none
+    }
     
 }
 
